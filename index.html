@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Danijel Stanko</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__logo">D</div>
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a href="#intro" class="header__link">
+                    <svg class="header__icon">
+                      <use href="img/icons/icons.svg#home"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="#projects" class="header__link">
+                    <svg class="header__icon">
+                      <use href="img/icons/icons.svg#portfolio"></use>
+                    </svg>
+                  </a>
+                </li>
+                <!-- <li class="header__item">
+                        <a href="#" class="header__link">
+                            <svg class="header__icon">
+                                <use href="img/icons/icons.svg#skills"></use>
+                            </svg>
+                        </a>
+                    </li> -->
+                <li class="header__item">
+                  <a href="#about" class="header__link">
+                    <svg class="header__icon">
+                      <use href="img/icons/icons.svg#email"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <div class="intro" data-section="intro">
+            <p class="intro__hi">Hi. my name is</p>
+            <h1 class="intro__name">Danijel Stanko</h1>
+            <div class="intro__picture">
+              <img src="img/selfie.png" alt="" class="intro__img" />
+            </div>
+            <p class="intro__text">
+              Welcome to my digital playground, where I bring websites to life.
+              Explore my web development journey.
+            </p>
+          </div>
+
+          <div class="projects" data-section="projects">
+            <section class="projects-main">
+              <h2 class="projects-main__title">Some things I've built</h2>
+              <p class="projects-main__text">
+                All these projects are my creations, built from scratch and
+                deployed on my VPS server using a simple Nginx configuration.
+              </p>
+              <div class="projects-main__body">
+                <div class="projects-main__item item-project-main">
+                  <div class="item-project-main__inner">
+                    <a
+                      class="item-project-main__picture"
+                      href="https://danijel.tech/musify/"
+                      target="_blank"
+                    >
+                      <div class="item-project-main__picture-wrapper">
+                        <img
+                          src="img/musify.png"
+                          alt=""
+                          class="item-project-main__img"
+                        />
+                      </div>
+                    </a>
+                    <div class="item-project-main__body">
+                      <a
+                        class="item-project-main__title"
+                        href="https://danijel.tech/musify/"
+                        target="_blank"
+                        >Musify</a
+                      >
+                      <p class="item-project-main__text">
+                        A full-stack web application built with Next.js and
+                        Nest.js allows you to upload music singles or albums
+                        with cover art, and then you can access and listen to
+                        them. There is also an option for user registration to
+                        add albums to favorites.
+                      </p>
+                      <div class="item-project-main__stack">
+                        <span class="item-project-main__stack-item"
+                          >TypeScript</span
+                        >
+                        <span class="item-project-main__stack-item">React</span>
+                        <span class="item-project-main__stack-item"
+                          >NextJS</span
+                        >
+                        <span class="item-project-main__stack-item"
+                          >NestJS</span
+                        >
+                        <span class="item-project-main__stack-item"
+                          >MongoDB</span
+                        >
+                        <span class="item-project-main__stack-item"
+                          >Redux, RTK Query</span
+                        >
+                      </div>
+                      <div class="project-icons item-project-main__icons">
+                        <a
+                          href="https://github.com/sdstanko/musify"
+                          class="project-icons__link"
+                          target="_blank"
+                        >
+                          <svg class="project-icons__icon">
+                            <use href="img/icons/icons.svg#github"></use>
+                          </svg>
+                        </a>
+                        <a
+                          href="https://danijel.tech/musify/"
+                          class="project-icons__link"
+                          target="_blank"
+                        >
+                          <svg class="project-icons__icon">
+                            <use href="img/icons/icons.svg#external"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects-main__item item-project-main">
+                  <div class="item-project-main__inner">
+                    <a
+                      class="item-project-main__picture"
+                      href="https://danijel.tech/kinoteka/"
+                      target="_blank"
+                    >
+                      <div class="item-project-main__picture-wrapper">
+                        <img
+                          src="img/kinoteka.png"
+                          alt=""
+                          class="item-project-main__img"
+                        />
+                      </div>
+                    </a>
+                    <div class="item-project-main__body">
+                      <a
+                        class="item-project-main__title"
+                        href="https://danijel.tech/kinoteka/"
+                        target="_blank"
+                        >Kinoteka</a
+                      >
+                      <p class="item-project-main__text">
+                        Also a full-stack SPA built with React and Express.
+                        Movie catalog. If you're logged in, you can add the
+                        movie info, and it will be uploaded to my server. There
+                        is also a watchlist where you can add movies. Backend
+                        API allows you search with query parameters, so you can
+                        share a link with your friends.
+                      </p>
+                      <div class="item-project-main__stack">
+                        <span class="item-project-main__stack-item"
+                          >TypeScript</span
+                        >
+                        <span class="item-project-main__stack-item">React</span>
+                        <span class="item-project-main__stack-item"
+                          >Express</span
+                        >
+                        <span class="item-project-main__stack-item"
+                          >Redux, RTK Query</span
+                        >
+                        <span class="item-project-main__stack-item"
+                          >MongoDB</span
+                        >
+                        <span class="item-project-main__stack-item">JWT</span>
+                        <span class="item-project-main__stack-item"
+                          >React Router</span
+                        >
+                      </div>
+                      <div class="project-icons item-project-main__icons">
+                        <a
+                          href="https://github.com/sdstanko/kinoteka"
+                          class="project-icons__link"
+                          target="_blank"
+                        >
+                          <svg class="project-icons__icon">
+                            <use href="img/icons/icons.svg#github"></use>
+                          </svg>
+                        </a>
+                        <a
+                          href="https://danijel.tech/kinoteka/"
+                          class="project-icons__link"
+                          target="_blank"
+                        >
+                          <svg class="project-icons__icon">
+                            <use href="img/icons/icons.svg#external"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects-main__item item-project-main">
+                  <div class="item-project-main__inner">
+                    <a
+                      class="item-project-main__picture"
+                      href="https://danijel.tech/world/"
+                      target="_blank"
+                    >
+                      <div class="item-project-main__picture-wrapper">
+                        <img
+                          src="img/world.png"
+                          alt=""
+                          class="item-project-main__img"
+                        />
+                      </div>
+                    </a>
+                    <div class="item-project-main__body">
+                      <a
+                        class="item-project-main__title"
+                        href="https://danijel.tech/world/"
+                        target="_blank"
+                        >World</a
+                      >
+                      <p class="item-project-main__text">
+                        Simple frontend application showing you world map. Used
+                        REST countries API. Map made with SVG,worked with zoom
+                        in and out whick you can use with mouse or trackpad.
+                      </p>
+                      <div class="item-project-main__stack">
+                        <span class="item-project-main__stack-item"
+                          >TypeScript</span
+                        >
+                        <span class="item-project-main__stack-item">React</span>
+                        <span class="item-project-main__stack-item">SVG</span>
+                        <span class="item-project-main__stack-item">Axios</span>
+                      </div>
+                      <div class="project-icons item-project-main__icons">
+                        <a
+                          href="https://github.com/sdstanko/world"
+                          class="project-icons__link"
+                          target="_blank"
+                        >
+                          <svg class="project-icons__icon">
+                            <use href="img/icons/icons.svg#github"></use>
+                          </svg>
+                        </a>
+                        <a
+                          href="https://danijel.tech/world/"
+                          class="project-icons__link"
+                          target="_blank"
+                        >
+                          <svg class="project-icons__icon">
+                            <use href="img/icons/icons.svg#external"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects-main__item item-project-main">
+                  <div class="item-project-main__inner">
+                    <a
+                      class="item-project-main__picture"
+                      href="https://danijel.tech/pomodoro/"
+                      target="_blank"
+                    >
+                      <div class="item-project-main__picture-wrapper">
+                        <img
+                          src="img/pomodoro.png"
+                          alt=""
+                          class="item-project-main__img"
+                        />
+                      </div>
+                    </a>
+                    <div class="item-project-main__body">
+                      <a
+                        class="item-project-main__title"
+                        href="https://danijel.tech/pomodoro/"
+                        target="_blank"
+                        >Pomodoro</a
+                      >
+                      <p class="item-project-main__text">
+                        Pomodoro timer made with pure JS. One important thing:
+                        fully accessible. You can use the app without a mouse,
+                        only with a keyboard. A settings popup also. A simple
+                        design and an alert sound at the end of the timer would
+                        help you focus on studying or working.
+                      </p>
+                      <div class="item-project-main__stack">
+                        <span class="item-project-main__stack-item"
+                          >JavaScript</span
+                        >
+                        <span class="item-project-main__stack-item">Gulp</span>
+                        <span class="item-project-main__stack-item"
+                          >Accessibility</span
+                        >
+                        <span class="item-project-main__stack-item">Bem</span>
+                      </div>
+                      <div class="project-icons item-project-main__icons">
+                        <a
+                          href="https://github.com/sdstanko/pomodoro"
+                          class="project-icons__link"
+                          target="_blank"
+                        >
+                          <svg class="project-icons__icon">
+                            <use href="img/icons/icons.svg#github"></use>
+                          </svg>
+                        </a>
+                        <a
+                          href="https://danijel.tech/pomodoro/"
+                          class="project-icons__link"
+                          target="_blank"
+                        >
+                          <svg class="project-icons__icon">
+                            <use href="img/icons/icons.svg#external"></use>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="projects-other">
+              <h2 class="projects-other__title">Other Noteworthy Projects</h2>
+              <div class="projects-other__body">
+                <div class="projects-other__item item-project-other">
+                  <div class="item-project-other__top">
+                    <svg class="item-project-other__folder">
+                      <use href="img/icons/icons.svg#folder"></use>
+                    </svg>
+                    <div class="project-icons item-project-other__icons">
+                      <a
+                        href="https://github.com/sdstanko/paint"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#github"></use>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://danijel.tech/paint/"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#external"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+
+                  <a
+                    class="item-project-other__title"
+                    href="https://danijel.tech/paint/"
+                    target="_blank"
+                    >Paint</a
+                  >
+                  <p class="item-project-other__text">
+                    Paint application copy where you can draw lines :) Made with
+                    React, worked with canvas.
+                  </p>
+                  <div class="item-project-other__stack">
+                    <span class="item-project-other__stack-item">React</span>
+                    <span class="item-project-other__stack-item">Canvas</span>
+                    <span class="item-project-other__stack-item">Redux</span>
+                  </div>
+                </div>
+                <div class="projects-other__item item-project-other">
+                  <div class="item-project-other__top">
+                    <svg class="item-project-other__folder">
+                      <use href="img/icons/icons.svg#folder"></use>
+                    </svg>
+                    <div class="project-icons item-project-other__icons">
+                      <a
+                        href="https://github.com/sdstanko/lmnt"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#github"></use>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://danijel.tech/lmnt/"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#external"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <a
+                    class="item-project-other__title"
+                    href="https://danijel.tech/lmnt/"
+                    target="_blank"
+                    >LMNT</a
+                  >
+                  <p class="item-project-other__text">
+                    Website for interior design studio. Adaptived for all
+                    devices.
+                  </p>
+                  <div class="item-project-other__stack">
+                    <span class="item-project-other__stack-item">HTML</span>
+                    <span class="item-project-other__stack-item">SCSS</span>
+                    <span class="item-project-other__stack-item"
+                      >JavaScript</span
+                    >
+                    <span class="item-project-other__stack-item"
+                      >Responsive</span
+                    >
+                  </div>
+                </div>
+                <div class="projects-other__item item-project-other">
+                  <div class="item-project-other__top">
+                    <svg class="item-project-other__folder">
+                      <use href="img/icons/icons.svg#folder"></use>
+                    </svg>
+                    <div class="project-icons item-project-other__icons">
+                      <a
+                        href="https://github.com/sdstanko/kamchatka"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#github"></use>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://danijel.tech/kamchatka/"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#external"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <a
+                    class="item-project-other__title"
+                    href="https://danijel.tech/kamchatka/"
+                    target="_blank"
+                    >Kamchatka</a
+                  >
+                  <p class="item-project-other__text">
+                    Landing page I made for team who is organizing tour
+                    excursions.
+                  </p>
+                  <div class="item-project-other__stack">
+                    <span class="item-project-other__stack-item">HTML</span>
+                    <span class="item-project-other__stack-item">SCSS</span>
+                    <span class="item-project-other__stack-item"
+                      >JavaScript</span
+                    >
+                    <span class="item-project-other__stack-item"
+                      >Responsive</span
+                    >
+                  </div>
+                </div>
+                <div class="projects-other__item item-project-other">
+                  <div class="item-project-other__top">
+                    <svg class="item-project-other__folder">
+                      <use href="img/icons/icons.svg#folder"></use>
+                    </svg>
+                    <div class="project-icons item-project-other__icons">
+                      <a
+                        href="https://github.com/sdstanko/vlk"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#github"></use>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://danijel.tech/vlk/"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#external"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <a
+                    class="item-project-other__title"
+                    href="https://danijel.tech/vlk/"
+                    target="_blank"
+                    >VLK</a
+                  >
+                  <p class="item-project-other__text">
+                    Website for timber processing complex. Optimized and
+                    adaptived.
+                  </p>
+                  <div class="item-project-other__stack">
+                    <span class="item-project-other__stack-item">HTML</span>
+                    <span class="item-project-other__stack-item">SCSS</span>
+                    <span class="item-project-other__stack-item"
+                      >JavaScript</span
+                    >
+                    <span class="item-project-other__stack-item">Gulp</span>
+                  </div>
+                </div>
+                <div class="projects-other__item item-project-other">
+                  <div class="item-project-other__top">
+                    <svg class="item-project-other__folder">
+                      <use href="img/icons/icons.svg#folder"></use>
+                    </svg>
+                    <div class="project-icons item-project-other__icons">
+                      <a
+                        href="https://github.com/sdstanko/event"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#github"></use>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://danijel.tech/event/"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#external"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <a
+                    class="item-project-other__title"
+                    href="https://danijel.tech/event/"
+                    target="_blank"
+                    >Event</a
+                  >
+                  <p class="item-project-other__text">
+                    Simple landing page for freelance platform.
+                  </p>
+                  <div class="item-project-other__stack">
+                    <span class="item-project-other__stack-item">HTML</span>
+                    <span class="item-project-other__stack-item">SCSS</span>
+                    <span class="item-project-other__stack-item"
+                      >JavaScript</span
+                    >
+                    <span class="item-project-other__stack-item">Swiper</span>
+                  </div>
+                </div>
+                <div class="projects-other__item item-project-other">
+                  <div class="item-project-other__top">
+                    <svg class="item-project-other__folder">
+                      <use href="img/icons/icons.svg#folder"></use>
+                    </svg>
+                    <div class="project-icons item-project-other__icons">
+                      <a
+                        href="https://github.com/sdstanko/void"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#github"></use>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://danijel.tech/void/"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#external"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <a
+                    class="item-project-other__title"
+                    href="https://danijel.tech/void/"
+                    target="_blank"
+                    >Void</a
+                  >
+                  <p class="item-project-other__text">
+                    Landing page I made for mobile apps developer studio.
+                  </p>
+                  <div class="item-project-other__stack">
+                    <span class="item-project-other__stack-item">HTML</span>
+                    <span class="item-project-other__stack-item">SCSS</span>
+                    <span class="item-project-other__stack-item"
+                      >JavaScript</span
+                    >
+                  </div>
+                </div>
+                <div class="projects-other__item item-project-other">
+                  <div class="item-project-other__top">
+                    <svg class="item-project-other__folder">
+                      <use href="img/icons/icons.svg#folder"></use>
+                    </svg>
+                    <div class="project-icons item-project-other__icons">
+                      <a
+                        href="https://github.com/sdstanko/hordog"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#github"></use>
+                        </svg>
+                      </a>
+                      <a
+                        href="https://danijel.tech/hordog/"
+                        class="project-icons__link"
+                        target="_blank"
+                      >
+                        <svg class="project-icons__icon">
+                          <use href="img/icons/icons.svg#external"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                  <a
+                    class="item-project-other__title"
+                    href="https://danijel.tech/hordog/"
+                    target="_blank"
+                    >HorDog</a
+                  >
+                  <p class="item-project-other__text">Website for pet shop.</p>
+                  <div class="item-project-other__stack">
+                    <span class="item-project-other__stack-item">HTML</span>
+                    <span class="item-project-other__stack-item">SCSS</span>
+                    <span class="item-project-other__stack-item"
+                      >JavaScript</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="about" data-section="about">
+            <section class="about__block about__block--skills">
+              <h3 class="about__title">Skills</h3>
+              <p class="about__text">Some of technologies I worked with most</p>
+              <ul class="about__list">
+                <li class="about__skill">HTML</li>
+                <li class="about__skill">CSS</li>
+                <li class="about__skill">JavaScript</li>
+                <li class="about__skill">TypeScript</li>
+                <li class="about__skill">React</li>
+                <li class="about__skill">Redux</li>
+                <li class="about__skill">REST API</li>
+                <li class="about__skill">Git</li>
+              </ul>
+            </section>
+            <section class="about__block about__block--contacts">
+              <h3 class="about__title">Contacts</h3>
+              <p class="about__text">
+                You can get in touch with me via email or Telegram
+              </p>
+              <div class="about__contacts">
+                <a href="mailto:stankodanijel@gmail.com" class="about__link"
+                  >stankodanijel@gmail.com</a
+                >
+                <a href="https://t.me/danijel" class="about__link">@Danijel</a>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
